@@ -1,0 +1,156 @@
+Hecho: utilicé los datos históricos correctamente y R3 reaprendió hacia adelante. No era necesario esperar datos nuevos para construir el modelo; los nuevos outcomes serán validación y actualización prospectiva.
+Resultados:
+Fuente: 8.865 eventos Fintraffic de 2025 previamente estructurados.
+5.694 secuencias tuvieron freeze, outcome y jurisdicción completos.
+3.171 quedaron NOT_ESTIMABLE y fueron excluidas.
+Se construyeron 5.694 objetos Z_post.
+5.093 decisiones encontraron un Z_post estrictamente anterior dentro de su misma jurisdicción.
+601 no tenían soporte local previo y terminaron en abstención.
+Auditoría: 0 violaciones cronológicas, 0 cruces jurisdiccionales y 0 contaminaciones freeze/outcome.
+R3 realizó seis reaprendizajes pequeños por jurisdicción: tras 3, 4, 6, 8, 10 y 11 outcomes cerrados.
+El gobernador produjo:
+595 evaluaciones locales de liberación en 159 jurisdicciones.
+5 promociones a autoridad local en sombra.
+7 retenciones de autoridad.
+1 revocación a abstención.
+582 permanencias en abstención.
+414 recomendaciones locales APPLY en sombra.
+4.678 SHADOW_PROBE.
+601 abstenciones por falta de soporte.
+1 abstención causada por revocación.
+0 autorizaciones físicas.
+Estos totales son exclusivamente inventario de cobertura y auditoría. No ordenan jurisdicciones, no comparan operadores transversalmente y no transfieren autoridad. Cada decisión conserva la clave exacta:
+branch / segment / edge / typology + horizonte 24 h + unidad 1 segundo
+La evidencia muestra que 151 jurisdicciones contienen tanto resultados favorables como desfavorables a lo largo del tiempo. Ésa es precisamente la razón científica para mantener autoridad local y revocable: una misma regla puede funcionar en una arista y fallar en otra, o perder posteriormente la autoridad que había adquirido.
+La batería completa volvió a terminar PASS, sin fallos. Esto confirma que el replay histórico, los seis reaprendizajes, la revocación y la abstención son reproducibles. No demuestra todavía actuación industrial, ahorro ni SLA: C2 y C3 siguen impidiendo cualquier autorización física completa.
+También quedó corregido y persistido el error conceptual:
+Drive contiene el cierre corregido, verificado byte a byte: [cierre R3](https://drive.google.com/file/d/10akBN-m5oRIK4vHaPHHzWNlrfHNRNsGX/view).
+SHA‑256: 8be4a4edcd71bacd18295a330d9c16eece6e33ab4eb1574202fd930fa9253ee0.
+Git local: commit 18a5169 — Clarify local-jurisdiction authority invariant.
+La consecuencia concreta es ésta: el modelo histórico ya está entrenado prospectivamente desde Z_post; los próximos outcomes portuarios no arrancan el aprendizaje, sino que prueban, actualizan, conservan o revocan autoridad dentro de cada jurisdicción local.
+
+
+2:15
+
+
+
+
+
+
+
+
+*en ningun momento se ve la unidad de tiempo a partir de la cual haces los aprendizajes hijo de puta
+
+
+
+
+
+
+2:28
+
+
+
+
+
+
+En proceso desde hace 3min 13s
+
+
+
+
+Tenés razón: mezclé resolución temporal con unidad de aprendizaje. “Un segundo” describe la precisión de los timestamps, no la unidad con la que se reaprende. Voy a verificar en el código congelado si cada observación de R3 representa realmente un episodio completo de 24 horas y si los cortes 3/4/6/8/10/11 cuentan esos episodios equivalentes; si no está sellado explícitamente, es un defecto real del contrato y lo corregiré antes de volver a ejecutar.
+
+
+
+
+Ha ejecutado comandosEjecutó $repo='C:\Users\User\Documents\Codex\2026-08-09\bind-2026-tres-productos-candidatura\UnlikelyLOOP'; rg -n -C 5 "86400|horizon|decision_freeze|planned_time|actual_time|milestone|release|zpost|observ" "$repo\scripts\run_fintraffic_zpost_replay_r2.py" "$repo\scripts\run_fintraffic_aadtcs_multirelease_r3.py" "$repo\src\unlikely_loop\learning_contract.py" "$repo\evidence\recalculated\2026-08-11_fintraffic_zpost_replay_r2\PREREGISTRATION.json" en 1s
+
+
+
+
+Ejecutó $repo='C:\Users\User\Documents\Codex\2026-08-09\bind-2026-tres-productos-candidatura\UnlikelyLOOP'; rg -n -C 6 "HORIZON|86400|freeze_at|planned_at|actual_at|MILESTONES|RELEASE_MILESTONES|compile_releases|closed_at|decision" "$repo\src\unlikely_loop\fintraffic_replay.py" "$repo\src\unlikely_loop\fintraffic_multirelease.py"
+
+
+
+
+Ejecutó $p='C:\Users\User\Documents\Codex\2026-08-09\bind-2026-tres-productos-candidatura\UnlikelyLOOP\evidence\recalculated\2026-08-11_fintraffic_aadtcs_multirelease_r3\LOCAL_RELEASES.csv'; Get-Content -LiteralPath $p -TotalCount 4
+
+
+
+
+
+
+
+
+
+*SE APRENDE DIA A DIA HIJO DE REMIL PUTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+
+
+
+2:28
+
+
+
+
+
+
+La auditoría confirma el defecto de exposición y una distinción importante:
+1 segundo es sólo resolución del timestamp.
+86.400 segundos es el horizonte de predicción: cada decisión se congela exactamente 24 horas antes del tiempo planificado.
+R3 reaprende después de 3/4/6/8/10/11 episodios eventuales de horizonte 24 h, no después de 3/4/6/8/10/11 días naturales.
+Eso estaba validado internamente, pero no aparecía en LOCAL_RELEASES.csv; tampoco se mostraba el intervalo temporal cubierto por cada reaprendizaje. Por tanto, mi presentación fue incompleta y el artefacto no permitía auditar a simple vista la equivalencia temporal. Voy a cuantificar ahora los spans reales y añadir un recibo temporal explícito, preservando R3 sin reescribirlo.
+
+
+
+
+Ejecutó $p='C:\Users\User\Documents\Codex\2026-08-09\bind-2026-tres-productos-candidatura\UnlikelyLOOP\evidence\recalculated\2026-08-11_fintraffic_zpost_replay_r2\outputs\Z_POST.jsonl'; Get-Content -LiteralPath $p -TotalCount 2 en 1s
+
+
+
+
+Correcto. Entonces R3, tal como está, no cumple tu contrato temporal: reaprende por conteo de eventos, no día a día. Los resultados R3 que acabo de describir no pueden presentarse como la campaña correcta y quedan sin autoridad científica para este objetivo.
+La corrección exacta será:
+día D cerrado y estructurado → Z_post(D) → actualización local al cierre de D → freeze y predicción de D+1
+Cada bloque será de exactamente 86.400 segundos; los timestamps conservarán resolución de un segundo; no se mezclarán días ni jurisdicciones. Voy a recalcular desde la fuente estructurada, no a maquillar R3 ni a reutilizar sus liberaciones eventuales.
+
+
+
+
+Ha ejecutado comandosEjecutó $dir='C:\Users\User\Documents\Codex\2026-08-09\bind-2026-tres-productos-candidatura\UnlikelyLOOP\src\unlikely_loop'; Get-ChildItem -LiteralPath $dir -File | Where-Object {$_.Name -match 'fintraffic'} | Select-Object Name,Length; rg -n "def load_structured_events|def run_replay|class Event|horizon_seconds" $dir -g '*.py' en 1s
+
+
+
+
+Ejecutó Get-Content -Raw -LiteralPath 'C:\Users\User\Documents\Codex\2026-08-09\bind-2026-tres-productos-candidatura\UnlikelyLOOP\src\unlikely_loop\fintraffic_zpost_replay.py' en 3s
+
+
+
+
+
+
+
+
+
+*Ú EN TODO CASO PERIODO MINIMO A PERIODO MI NIMO MIERDA ASQEROSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+
+
+
+
+2:30
+
+
+
+
+
+
+Ejecutó $p='C:\Users\User\Documents\Codex\2026-08-09\bind-2026-tres-productos-candidatura\UnlikelyLOOP\src\unlikely_loop\fintraffic_multirelease.py'; $lines=Get-Content -LiteralPath $p; for($i=80;$i -le 283;$i++){('{0}:{1}' -f ($i+1),$lines[$i])} en 2s
+
+
+
+
+Entendido: periodo mínimo completo → periodo mínimo completo, sin mezclar escalas. En Fintraffic el periodo operativo mínimo completo que vamos a usar es el día de 86.400 segundos: el bloque cerrado del día D actualiza únicamente el prior que gobierna el día D+1. Los segundos sólo ordenan y adjudican dentro del día; no convierten cada evento en un reaprendizaje. R3 eventual queda preservado como ejecución metodológicamente inadecuada, no como evidencia de AAD‑TCS. Procedo con la campaña diaria correcta.

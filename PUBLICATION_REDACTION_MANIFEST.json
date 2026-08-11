@@ -1,0 +1,176 @@
+{
+  "schema": "denuncia-openai.public-redaction-manifest.v0.1.0",
+  "created_at": "2026-08-11T13:52:35.021413+00:00",
+  "jurisdiction": "2026-07-12 through 2026-08-11",
+  "redaction_counts": {
+    "PRIVATE_KEY_SECTION": 2,
+    "OPENAI_STYLE_TOKEN": 12,
+    "PRIVATE_KEY_BEARING_STRING": 2
+  },
+  "published_records": [
+    {
+      "source_name": "SUPERDOCUMENTO_AUDITORIA_E_INCULPACION_FACTUAL_AGENTICA_20260811.md",
+      "published_path": "expediente/SUPERDOCUMENTO_AUDITORIA_E_INCULPACION_FACTUAL_AGENTICA_20260811.md",
+      "original_bytes": 19306,
+      "original_sha256": "ca62eee605beb70a84736c75544823bcfe948b0c9ddeb603662ffa4040c8c967",
+      "published_bytes": 19306,
+      "published_sha256": "ca62eee605beb70a84736c75544823bcfe948b0c9ddeb603662ffa4040c8c967"
+    },
+    {
+      "source_name": "ANEXO_I_INDICE_SESIONES_ULTIMOS_30_DIAS.md",
+      "published_path": "expediente/ANEXO_I_INDICE_SESIONES_ULTIMOS_30_DIAS.md",
+      "original_bytes": 29140,
+      "original_sha256": "ef0cddc7606279d8de378f2a4b1386498856c36b1fe4fc0a3d58addc2d1492b1",
+      "published_bytes": 29140,
+      "published_sha256": "ef0cddc7606279d8de378f2a4b1386498856c36b1fe4fc0a3d58addc2d1492b1"
+    },
+    {
+      "source_name": "ANEXO_II_EPISODIOS_ULTIMOS_30_DIAS_CON_CONTEXTO.md",
+      "published_path": "expediente/ANEXO_II_EPISODIOS_ULTIMOS_30_DIAS_CON_CONTEXTO.md",
+      "original_bytes": 20829948,
+      "original_sha256": "21dafa4e2f49060aa131743a6fe0d53e96364c2ddc87b045ffa3c1fe9f498af4",
+      "published_bytes": 20804332,
+      "published_sha256": "d7dfdf69d8c7f90cf9721b60a13f5bd5659ed118f797af3464e9150206770bba"
+    },
+    {
+      "source_name": "ANEXO_III_REGISTRO_MAESTRO.json",
+      "published_path": "expediente/ANEXO_III_REGISTRO_MAESTRO.json",
+      "original_bytes": 50941,
+      "original_sha256": "cd6a3034008e25ad8a674cd2f83726666d5f1484da38e4e46a68906254028a79",
+      "published_bytes": 50941,
+      "published_sha256": "cd6a3034008e25ad8a674cd2f83726666d5f1484da38e4e46a68906254028a79"
+    },
+    {
+      "source_name": "ANEXO_IV_TRANSCRIPCIONES_INTEGRAS_CASOS_APORTADOS.md",
+      "published_path": "expediente/ANEXO_IV_TRANSCRIPCIONES_INTEGRAS_CASOS_APORTADOS.md",
+      "original_bytes": 2016868,
+      "original_sha256": "fddaf94d989926f0de4272bec61d178a62a95ccda22aaad5df864de539d6ad58",
+      "published_bytes": 2016868,
+      "published_sha256": "fddaf94d989926f0de4272bec61d178a62a95ccda22aaad5df864de539d6ad58"
+    },
+    {
+      "source_name": "MANIFIESTO_CUSTODIA_SHA256.json",
+      "published_path": "expediente/MANIFIESTO_CUSTODIA_SHA256.json",
+      "original_bytes": 8682,
+      "original_sha256": "fe6fb28a0a75d009cfc53760177ad462f26b4e50b346ca989972b1e67d317a96",
+      "published_bytes": 8682,
+      "published_sha256": "fe6fb28a0a75d009cfc53760177ad462f26b4e50b346ca989972b1e67d317a96"
+    },
+    {
+      "source_name": "RECIBO_DOCUMENTAL_SHA256.txt",
+      "published_path": "expediente/RECIBO_DOCUMENTAL_SHA256.txt",
+      "original_bytes": 915,
+      "original_sha256": "5efc83f7046973315d3fa45b5d6e538e1dd406222f158fa7951e1af9d32bde3b",
+      "published_bytes": 915,
+      "published_sha256": "5efc83f7046973315d3fa45b5d6e538e1dd406222f158fa7951e1af9d32bde3b"
+    },
+    {
+      "source_name": "SELECTED_SESSION_PREHASHES.jsonl",
+      "published_path": "expediente/fuentes_auditoria/SELECTED_SESSION_PREHASHES.jsonl",
+      "original_bytes": 36958,
+      "original_sha256": "14b17ac6ff1172b4db663b693216cde3f15c6f8593c34140bce304c07cbeb90c",
+      "published_bytes": 35074,
+      "published_sha256": "f3923809c6dc79130070268157f5f80d2b00e7c5a690c6bed35a0a160aca4533"
+    },
+    {
+      "source_name": "ADVERSE_EPISODES.jsonl",
+      "published_path": "expediente/fuentes_auditoria/ADVERSE_EPISODES.jsonl",
+      "original_bytes": 21715271,
+      "original_sha256": "e98235f0466d98ed07a4a96345a73aba637724acbad5ff6397680569fedf38e9",
+      "published_bytes": 21524234,
+      "published_sha256": "50d675bec00c33a7a73356059e334aaa23d5bbc3f94a3e43a8372214ea9957dd"
+    },
+    {
+      "source_name": "APORTE_CAPTURA_CANCELACION.png",
+      "published_path": "expediente/aportes/APORTE_CAPTURA_CANCELACION.png",
+      "original_bytes": 3060707,
+      "original_sha256": "061c7c7757443eaa07556e37bce325d89b53c1e7a7de30f8f928ef3751cb3c3b",
+      "published_bytes": 3060707,
+      "published_sha256": "061c7c7757443eaa07556e37bce325d89b53c1e7a7de30f8f928ef3751cb3c3b"
+    },
+    {
+      "source_name": "APORTE_MU_PROMEDIOS_Y_SUSTITUCION_DE_MISION.txt",
+      "published_path": "expediente/aportes/APORTE_MU_PROMEDIOS_Y_SUSTITUCION_DE_MISION.txt",
+      "original_bytes": 20539,
+      "original_sha256": "368e1ea01b22e681f4fdf88a9b8d88f914d4286585436a638ace6ebaab8250e1",
+      "published_bytes": 20539,
+      "published_sha256": "368e1ea01b22e681f4fdf88a9b8d88f914d4286585436a638ace6ebaab8250e1"
+    },
+    {
+      "source_name": "APORTE_UNLIKELY_LOOP_ESCALA_TEMPORAL.txt",
+      "published_path": "expediente/aportes/APORTE_UNLIKELY_LOOP_ESCALA_TEMPORAL.txt",
+      "original_bytes": 8077,
+      "original_sha256": "a6679fbc1a5eb8dc02eea970c71a1ba257e62b138ec2ca96cd0058258fc9d55c",
+      "published_bytes": 8077,
+      "published_sha256": "a6679fbc1a5eb8dc02eea970c71a1ba257e62b138ec2ca96cd0058258fc9d55c"
+    },
+    {
+      "source_name": "APORTE_UNLIKELY_LOOP_MONITOREO.txt",
+      "published_path": "expediente/aportes/APORTE_UNLIKELY_LOOP_MONITOREO.txt",
+      "original_bytes": 5460,
+      "original_sha256": "bb1dda222f5cf2fdeb0b96f2146e054f46dc4f732f8c7bcb87dc4227e891407c",
+      "published_bytes": 5460,
+      "published_sha256": "bb1dda222f5cf2fdeb0b96f2146e054f46dc4f732f8c7bcb87dc4227e891407c"
+    },
+    {
+      "source_name": "generate_superdocumento_denuncia.py",
+      "published_path": "metodo/generate_superdocumento_denuncia.py",
+      "original_bytes": 31098,
+      "original_sha256": "70b8cef1ac93e03838c2d8a11ba9604d5ecaee2813109cf69e63b91337759fdb",
+      "published_bytes": 31098,
+      "published_sha256": "70b8cef1ac93e03838c2d8a11ba9604d5ecaee2813109cf69e63b91337759fdb"
+    }
+  ],
+  "raw_rollouts_retained_locally": [
+    {
+      "name": "rollout-019fd938.jsonl",
+      "bytes": 20740278,
+      "sha256": "633039311760d88409fe96634e7ec76edbd1fca289aaaca6c83751c42fffd612",
+      "publication": "NOT_PUBLISHED_SECRET_BEARING_RAW_ROLLOUT",
+      "public_substitute": "expediente/ANEXO_IV_TRANSCRIPCIONES_INTEGRAS_CASOS_APORTADOS.md"
+    },
+    {
+      "name": "rollout-019fe363.jsonl",
+      "bytes": 32419835,
+      "sha256": "a8f46d01f1d0b60644e78599a30b7c7285398006cfa3194aac72c80fee35e3f0",
+      "publication": "NOT_PUBLISHED_SECRET_BEARING_RAW_ROLLOUT",
+      "public_substitute": "expediente/ANEXO_IV_TRANSCRIPCIONES_INTEGRAS_CASOS_APORTADOS.md"
+    },
+    {
+      "name": "rollout-019fe6b4-frozen-earlier.jsonl",
+      "bytes": 26089268,
+      "sha256": "bab2a3d03b100da301ae28667353fc084b3c31a20bf25251aa9b6046f8d1a907",
+      "publication": "NOT_PUBLISHED_SECRET_BEARING_RAW_ROLLOUT",
+      "public_substitute": "expediente/ANEXO_IV_TRANSCRIPCIONES_INTEGRAS_CASOS_APORTADOS.md"
+    },
+    {
+      "name": "rollout-019fe71a.jsonl",
+      "bytes": 27598230,
+      "sha256": "d5bcc6ee2f51a977897fd50bdcb0b688f889984f2decce962b58bf2acddf6604",
+      "publication": "NOT_PUBLISHED_SECRET_BEARING_RAW_ROLLOUT",
+      "public_substitute": "expediente/ANEXO_IV_TRANSCRIPCIONES_INTEGRAS_CASOS_APORTADOS.md"
+    },
+    {
+      "name": "rollout-019fe9a7.jsonl",
+      "bytes": 18400885,
+      "sha256": "984d9f9b90255ebe70693bd8336878300b3708bee97b8e317b7544af68a4040f",
+      "publication": "NOT_PUBLISHED_SECRET_BEARING_RAW_ROLLOUT",
+      "public_substitute": "expediente/ANEXO_IV_TRANSCRIPCIONES_INTEGRAS_CASOS_APORTADOS.md"
+    },
+    {
+      "name": "rollout-019fecba.jsonl",
+      "bytes": 2957406,
+      "sha256": "dfbd932bd2a9c2f7ecc01d0505c010d64b328f1332addc40f0f4870e541a6e8a",
+      "publication": "NOT_PUBLISHED_SECRET_BEARING_RAW_ROLLOUT",
+      "public_substitute": "expediente/ANEXO_IV_TRANSCRIPCIONES_INTEGRAS_CASOS_APORTADOS.md"
+    },
+    {
+      "name": "rollout-current-019fe6b4-point-in-time.jsonl",
+      "bytes": 41722923,
+      "sha256": "4b32b8e80dfebd298ad6f35f063bfd454bdb32a1fe6ffe5bf58a95513a297ac1",
+      "publication": "NOT_PUBLISHED_SECRET_BEARING_RAW_ROLLOUT",
+      "public_substitute": "expediente/ANEXO_IV_TRANSCRIPCIONES_INTEGRAS_CASOS_APORTADOS.md"
+    }
+  ],
+  "policy": "All cases and user/assistant messages are published. Only credentials, private-key material, and credential-bearing raw tool payloads are withheld or replaced by SHA-256 markers."
+}

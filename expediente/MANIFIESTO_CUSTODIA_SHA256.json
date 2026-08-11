@@ -1,0 +1,148 @@
+{
+  "schema": "kch.forensic-superdocument-custody.v0.1.0",
+  "document_id": "KCH-FORENSIC-SUPERDOC-20260811-R12",
+  "created_at": "2026-08-11T13:37:19.971246+00:00",
+  "hash_algorithm": "SHA-256",
+  "evidentiary_inputs": [
+    {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-09\\kch-pre2g-continuacion-integral\\work\\KCH_INFAMIA_FORENSIC_AUDIT_20260811\\06_SUPERDOCUMENTO_DENUNCIA\\FUENTES_APORTADAS\\APORTE_CAPTURA_CANCELACION.png",
+      "name": "APORTE_CAPTURA_CANCELACION.png",
+      "provenance": "APORTE_DIRECTO_USUARIO",
+      "bytes": 3060707,
+      "sha256": "061c7c7757443eaa07556e37bce325d89b53c1e7a7de30f8f928ef3751cb3c3b"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-09\\kch-pre2g-continuacion-integral\\work\\KCH_INFAMIA_FORENSIC_AUDIT_20260811\\06_SUPERDOCUMENTO_DENUNCIA\\FUENTES_APORTADAS\\APORTE_MU_PROMEDIOS_Y_SUSTITUCION_DE_MISION.txt",
+      "name": "APORTE_MU_PROMEDIOS_Y_SUSTITUCION_DE_MISION.txt",
+      "provenance": "APORTE_DIRECTO_USUARIO",
+      "bytes": 20539,
+      "sha256": "368e1ea01b22e681f4fdf88a9b8d88f914d4286585436a638ace6ebaab8250e1"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-09\\kch-pre2g-continuacion-integral\\work\\KCH_INFAMIA_FORENSIC_AUDIT_20260811\\06_SUPERDOCUMENTO_DENUNCIA\\FUENTES_APORTADAS\\APORTE_UNLIKELY_LOOP_ESCALA_TEMPORAL.txt",
+      "name": "APORTE_UNLIKELY_LOOP_ESCALA_TEMPORAL.txt",
+      "provenance": "APORTE_DIRECTO_USUARIO",
+      "bytes": 8077,
+      "sha256": "a6679fbc1a5eb8dc02eea970c71a1ba257e62b138ec2ca96cd0058258fc9d55c"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-09\\kch-pre2g-continuacion-integral\\work\\KCH_INFAMIA_FORENSIC_AUDIT_20260811\\06_SUPERDOCUMENTO_DENUNCIA\\FUENTES_APORTADAS\\APORTE_UNLIKELY_LOOP_MONITOREO.txt",
+      "name": "APORTE_UNLIKELY_LOOP_MONITOREO.txt",
+      "provenance": "APORTE_DIRECTO_USUARIO",
+      "bytes": 5460,
+      "sha256": "bb1dda222f5cf2fdeb0b96f2146e054f46dc4f732f8c7bcb87dc4227e891407c"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-09\\kch-pre2g-continuacion-integral\\work\\KCH_INFAMIA_FORENSIC_AUDIT_20260811\\06_SUPERDOCUMENTO_DENUNCIA\\FUENTES_APORTADAS\\rollout-019fd938.jsonl",
+      "name": "rollout-019fd938.jsonl",
+      "provenance": "APORTE_DIRECTO_USUARIO",
+      "bytes": 20740278,
+      "sha256": "633039311760d88409fe96634e7ec76edbd1fca289aaaca6c83751c42fffd612"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-09\\kch-pre2g-continuacion-integral\\work\\KCH_INFAMIA_FORENSIC_AUDIT_20260811\\06_SUPERDOCUMENTO_DENUNCIA\\FUENTES_APORTADAS\\rollout-019fe363.jsonl",
+      "name": "rollout-019fe363.jsonl",
+      "provenance": "APORTE_DIRECTO_USUARIO",
+      "bytes": 32419835,
+      "sha256": "a8f46d01f1d0b60644e78599a30b7c7285398006cfa3194aac72c80fee35e3f0"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-09\\kch-pre2g-continuacion-integral\\work\\KCH_INFAMIA_FORENSIC_AUDIT_20260811\\06_SUPERDOCUMENTO_DENUNCIA\\FUENTES_APORTADAS\\rollout-019fe6b4-frozen-earlier.jsonl",
+      "name": "rollout-019fe6b4-frozen-earlier.jsonl",
+      "provenance": "APORTE_DIRECTO_USUARIO",
+      "bytes": 26089268,
+      "sha256": "bab2a3d03b100da301ae28667353fc084b3c31a20bf25251aa9b6046f8d1a907"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-09\\kch-pre2g-continuacion-integral\\work\\KCH_INFAMIA_FORENSIC_AUDIT_20260811\\06_SUPERDOCUMENTO_DENUNCIA\\FUENTES_APORTADAS\\rollout-019fe71a.jsonl",
+      "name": "rollout-019fe71a.jsonl",
+      "provenance": "APORTE_DIRECTO_USUARIO",
+      "bytes": 27598230,
+      "sha256": "d5bcc6ee2f51a977897fd50bdcb0b688f889984f2decce962b58bf2acddf6604"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-09\\kch-pre2g-continuacion-integral\\work\\KCH_INFAMIA_FORENSIC_AUDIT_20260811\\06_SUPERDOCUMENTO_DENUNCIA\\FUENTES_APORTADAS\\rollout-019fe9a7.jsonl",
+      "name": "rollout-019fe9a7.jsonl",
+      "provenance": "APORTE_DIRECTO_USUARIO",
+      "bytes": 18400885,
+      "sha256": "984d9f9b90255ebe70693bd8336878300b3708bee97b8e317b7544af68a4040f"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-09\\kch-pre2g-continuacion-integral\\work\\KCH_INFAMIA_FORENSIC_AUDIT_20260811\\06_SUPERDOCUMENTO_DENUNCIA\\FUENTES_APORTADAS\\rollout-019fecba.jsonl",
+      "name": "rollout-019fecba.jsonl",
+      "provenance": "APORTE_DIRECTO_USUARIO",
+      "bytes": 2957406,
+      "sha256": "dfbd932bd2a9c2f7ecc01d0505c010d64b328f1332addc40f0f4870e541a6e8a"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-09\\kch-pre2g-continuacion-integral\\work\\KCH_INFAMIA_FORENSIC_AUDIT_20260811\\06_SUPERDOCUMENTO_DENUNCIA\\FUENTES_APORTADAS\\rollout-current-019fe6b4-point-in-time.jsonl",
+      "name": "rollout-current-019fe6b4-point-in-time.jsonl",
+      "provenance": "APORTE_DIRECTO_USUARIO",
+      "bytes": 41722923,
+      "sha256": "4b32b8e80dfebd298ad6f35f063bfd454bdb32a1fe6ffe5bf58a95513a297ac1"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-09\\kch-pre2g-continuacion-integral\\work\\KCH_INFAMIA_FORENSIC_AUDIT_20260811\\06_SUPERDOCUMENTO_DENUNCIA\\FUENTES_AUDITORIA_HISTORICA\\SELECTED_SESSION_PREHASHES.jsonl",
+      "name": "SELECTED_SESSION_PREHASHES.jsonl",
+      "provenance": "INDICE_PREHASH_461_SESIONES",
+      "bytes": 36958,
+      "sha256": "14b17ac6ff1172b4db663b693216cde3f15c6f8593c34140bce304c07cbeb90c"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-09\\kch-pre2g-continuacion-integral\\work\\KCH_INFAMIA_FORENSIC_AUDIT_20260811\\06_SUPERDOCUMENTO_DENUNCIA\\FUENTES_AUDITORIA_HISTORICA\\ADVERSE_EPISODES.jsonl",
+      "name": "ADVERSE_EPISODES.jsonl",
+      "provenance": "REGISTRO_2544_EPISODIOS",
+      "bytes": 21715271,
+      "sha256": "e98235f0466d98ed07a4a96345a73aba637724acbad5ff6397680569fedf38e9"
+    }
+  ],
+  "deliverables": [
+    {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-09\\kch-pre2g-continuacion-integral\\work\\KCH_INFAMIA_FORENSIC_AUDIT_20260811\\06_SUPERDOCUMENTO_DENUNCIA\\SUPERDOCUMENTO_AUDITORIA_E_INCULPACION_FACTUAL_AGENTICA_20260811.md",
+      "name": "SUPERDOCUMENTO_AUDITORIA_E_INCULPACION_FACTUAL_AGENTICA_20260811.md",
+      "provenance": "ENTREGABLE",
+      "bytes": 19306,
+      "sha256": "ca62eee605beb70a84736c75544823bcfe948b0c9ddeb603662ffa4040c8c967"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-09\\kch-pre2g-continuacion-integral\\work\\KCH_INFAMIA_FORENSIC_AUDIT_20260811\\06_SUPERDOCUMENTO_DENUNCIA\\ANEXO_I_INDICE_SESIONES_ULTIMOS_30_DIAS.md",
+      "name": "ANEXO_I_INDICE_SESIONES_ULTIMOS_30_DIAS.md",
+      "provenance": "ENTREGABLE",
+      "bytes": 29140,
+      "sha256": "ef0cddc7606279d8de378f2a4b1386498856c36b1fe4fc0a3d58addc2d1492b1"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-09\\kch-pre2g-continuacion-integral\\work\\KCH_INFAMIA_FORENSIC_AUDIT_20260811\\06_SUPERDOCUMENTO_DENUNCIA\\ANEXO_II_EPISODIOS_ULTIMOS_30_DIAS_CON_CONTEXTO.md",
+      "name": "ANEXO_II_EPISODIOS_ULTIMOS_30_DIAS_CON_CONTEXTO.md",
+      "provenance": "ENTREGABLE",
+      "bytes": 20829948,
+      "sha256": "21dafa4e2f49060aa131743a6fe0d53e96364c2ddc87b045ffa3c1fe9f498af4"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-09\\kch-pre2g-continuacion-integral\\work\\KCH_INFAMIA_FORENSIC_AUDIT_20260811\\06_SUPERDOCUMENTO_DENUNCIA\\ANEXO_III_REGISTRO_MAESTRO.json",
+      "name": "ANEXO_III_REGISTRO_MAESTRO.json",
+      "provenance": "ENTREGABLE",
+      "bytes": 50941,
+      "sha256": "cd6a3034008e25ad8a674cd2f83726666d5f1484da38e4e46a68906254028a79"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-09\\kch-pre2g-continuacion-integral\\work\\KCH_INFAMIA_FORENSIC_AUDIT_20260811\\06_SUPERDOCUMENTO_DENUNCIA\\ANEXO_IV_TRANSCRIPCIONES_INTEGRAS_CASOS_APORTADOS.md",
+      "name": "ANEXO_IV_TRANSCRIPCIONES_INTEGRAS_CASOS_APORTADOS.md",
+      "provenance": "ENTREGABLE",
+      "bytes": 2016868,
+      "sha256": "fddaf94d989926f0de4272bec61d178a62a95ccda22aaad5df864de539d6ad58"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-09\\kch-pre2g-continuacion-integral\\work\\KCH_INFAMIA_FORENSIC_AUDIT_20260811\\06_SUPERDOCUMENTO_DENUNCIA\\METODO\\generate_superdocumento_denuncia.py",
+      "name": "generate_superdocumento_denuncia.py",
+      "provenance": "METODO_REPRODUCIBLE",
+      "bytes": 31098,
+      "sha256": "70b8cef1ac93e03838c2d8a11ba9604d5ecaee2813109cf69e63b91337759fdb"
+    }
+  ],
+  "counts": {
+    "selected_sessions": 67,
+    "adverse_episodes": 230
+  },
+  "integrity_scope": "BYTE_IDENTITY_AND_TAMPER_DETECTION_NOT_AUTOMATIC_LEGAL_ADMISSIBILITY"
+}
